@@ -73,7 +73,7 @@ def new_game():
 
     for row in range(3):
         for column in range(3):
-            board[row][column].config(text="", foreground=color_pink, background=color_gray)
+            board[row][column].config(text="", foreground=color_pink)
 
 #game setup
 playerX = "X"
